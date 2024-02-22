@@ -1,6 +1,10 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-primary-1);
+    z-index: 3;
 }
 
 #navbar {
@@ -12,7 +16,7 @@ header {
 
 #nav_logo {
     font-size: 24px;
-    color: #e9a209;
+    color: var(--color-primary-6);
 }
 
 #nav_list {
@@ -28,8 +32,8 @@ header {
 }
 
 .nav-item.active a {
-    color: #1d1d1d;
-    border-bottom: 3px solid #ffe100;
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid var(--color-primary-4);
 }
 
 #mobile_btn {
@@ -40,12 +44,12 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 1170px) { /*excluindo conteudo da tela denifida.*/
+@media screen and (max-width: 1170px) {
     #nav_list,
     #navbar .btn-default {
         display: none;
     }
-}
+
 
 #mobile_btn {
     display: block;
@@ -71,4 +75,5 @@ margin: 12px 0px;
 #mobile_nav_list .nav-item {
     list-style: none;
     text-align: center;
+    }
 }

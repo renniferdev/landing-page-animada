@@ -1,8 +1,26 @@
 @charset "UTF_8";
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(header.css);
+@import url(home.css);
+@import url(menu.css);
+@import url(testimonials.css);
+@import url(footer.css);
 
+:root {
+    --color-primary-1: #fff9ea;
+    --color-primary-2: #ffe8b4;
+    --color-primary-2: #ffe100;
+    --color-primary-3: #f8d477;
+    --color-primary-4: #ffe100;
+    --color-primary-5: #ffcb45;
+    --color-primary-6: #e9a209;
 
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+}
+
+ 
 * {
     font-family: "Work Sans", sans-serif;
     margin: 0;
@@ -14,7 +32,7 @@ body {
     background-color: #fff9ea;
 }
 
-section {
+section { 
     padding: 28px 8%;
 }
 
@@ -61,7 +79,7 @@ section {
 }
 
 .section-title {
-    color: var(--color-primary-6);
+    color: #e9a209;
     font-size: 1.563rem;
 }
 
